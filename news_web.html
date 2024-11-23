@@ -3,9 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NextGennews</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <title>NextGenNews</title>
+    <style>
+        /* Navigation Bar */
+        #navigetion {
+            height: 150px;
+            width: 100%;
+            background-color: rgb(241, 232, 232);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Logo Image */
+        .image {
+            height: 100px;
+            width: 100px;
+        }
+
+        /* Title */
+        .title {
+            font-family: 'Edu VIC WA NT Hand', cursive;
+            font-size: 36px;
+            color: #333;
+            text-align: center;
+        }
+
+        /* Breaking News */
+        .breaking_news {
+            height: 30px;
+            background-color: rgb(226, 141, 141);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Navigation Links */
+        .news-links {
+            display: flex; /* Align links side by side */
+            justify-content: center; /* Center all links */
+            align-items: center; /* Align icons and text */
+            gap: 20px; /* Add space between links */
+            margin-top: 10px;
+            background-color: rgb(38, 176, 223);
+            height: 30px;
+        }
+
+        .news-links a {
+            text-decoration: none; /* Remove underline */
+            color: #333; /* Text color */
+            font-family: 'Montserrat', sans-serif;
+            font-size: 18px;
+            display: flex; /* Keep icon and text together */
+            align-items: center; /* Vertically align icon and text */
+            gap: 5px; /* Space between icon and text */
+        }
+         .news-links i {
+            font-size: 20px; /* Icon size */
+            color: #555; /* Icon color */
+            e;
+        }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <nav id="navigetion">
+            <img src="src/logo.png" alt="logo" class="image"> 
+            <h2 class="title">NEXt gEn NeWs</h2>
+        </nav>
+        <br>
+        <marquee class="breaking_news">"BREAKING NEWS" New cryptocurrency Regulations to Reshape Financial Markets</marquee>
+        <br>
+        <div class="news-links">
+            <a href=""><i class="fa-solid fa-earth-americas"></i>Top News</a>
+            <a href=""><i class="fa-regular fa-handshake"></i>Global Diplomacy</a>
+            <a href=""><i class="fa-solid fa-microchip"></i>Tech Inventions</a>
+            <a href=""><i class="fa-brands fa-space-awesome"></i>Sports & Space News</a>
+            <a href=""><i class="fa-solid fa-book"></i></i>How to Post</a>
+        </div>
+    </header>
+    <section></section>
+    <footer></footer>
 </body>
 </html>
