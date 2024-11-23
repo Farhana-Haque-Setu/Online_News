@@ -1,0 +1,137 @@
+ /* Navigation Bar  */
+ #navigetion {
+    height: 150px;
+    width: 100%;
+    background-color: #004d40;; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* Logo Image */
+.image {
+    height: 100px;
+    width: 100px;
+}
+
+/* Title */
+.title {
+    font-family: 'Edu VIC WA NT Hand', cursive;
+    font-size: 36px;
+    color: #fff; 
+    text-align: center;
+}
+
+/* Breaking News */
+.breaking_news {
+    background-color: #ff6b6b;
+    height: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+/* Navigation Links */
+.news-links {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 30px;
+    margin-top: 10px;
+    background-color: #0077b6; 
+    height: 40px;
+    color: white;
+}
+
+.news-links a {
+    text-decoration: none; 
+    color: white; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    display: flex; 
+    align-items: center;
+    gap: 5px; 
+}
+
+.news-links i {
+    font-size: 20px; 
+    color: white;
+}
+
+/* Top News Header */
+.top-news-header {
+    display: flex; 
+    align-items: center; 
+    margin: 20px 0;
+}
+
+.top-news-header i {
+    font-size: 24px; 
+    color: #e63946; 
+}
+
+.top-news-header p {
+    margin: 0; 
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; 
+    margin-left: 10px;
+}
+
+/* Table Styles */
+.table {
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    width: 100%; 
+}
+
+.table table {
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd; 
+    padding: 10px; 
+    
+}
+
+.table td {
+    background-color: #f0f8ff; /
+    text-decoration: underline;
+    color: #002855; 
+}
+
+.table th {
+    background-color: #0077b6; 
+    color: white; 
+}
+
+/* Global Section */
+.global {
+    display: flex; 
+    align-items: center; 
+    background-color: #f77f00; 
+    height: 40px;
+    padding-left: 10px;
+}
+
+.global i {
+    color: white;
+    font-size: 20px;
+}
+
+.global h1 {
+    margin: 0; 
+    font-size: 20px; 
+    color: white; 
+    margin-left: 10px;
+}
+.photocard {
+display: block; 
+margin: 0 auto; 
+width: auto 
+height:auto; }

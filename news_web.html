@@ -5,86 +5,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>NextGenNews</title>
     <style>
-        /* Navigation Bar */
-        #navigetion {
-            height: 150px;
-            width: 100%;
-            background-color: rgb(241, 232, 232);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+     
 
-        /* Logo Image */
-        .image {
-            height: 100px;
-            width: 100px;
-        }
-
-        /* Title */
-        .title {
-            font-family: 'Edu VIC WA NT Hand', cursive;
-            font-size: 36px;
-            color: #333;
-            text-align: center;
-        }
-
-        /* Breaking News */
-        .breaking_news {
-            height: 30px;
-            background-color: rgb(226, 141, 141);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        /* Navigation Links */
-        .news-links {
-            display: flex; /* Align links side by side */
-            justify-content: center; /* Center all links */
-            align-items: center; /* Align icons and text */
-            gap: 20px; /* Add space between links */
-            margin-top: 10px;
-            background-color: rgb(38, 176, 223);
-            height: 30px;
-        }
-
-        .news-links a {
-            text-decoration: none; /* Remove underline */
-            color: #333; /* Text color */
-            font-family: 'Montserrat', sans-serif;
-            font-size: 18px;
-            display: flex; /* Keep icon and text together */
-            align-items: center; /* Vertically align icon and text */
-            gap: 5px; /* Space between icon and text */
-        }
-         .news-links i {
-            font-size: 20px; /* Icon size */
-            color: #555; /* Icon color */
-            e;
-        }
     </style>
 </head>
 <body>
     <header>
         <nav id="navigetion">
-            <img src="src/logo.png" alt="logo" class="image"> 
+            <img src="src/logo.png" alt="logo" class="image">
             <h2 class="title">NEXt gEn NeWs</h2>
         </nav>
         <br>
-        <marquee class="breaking_news">"BREAKING NEWS" New cryptocurrency Regulations to Reshape Financial Markets</marquee>
+        <marquee behavior="" direction="" class="breaking_news">"BREAKING NEWS" New cryptocurrency regulations to reshape financial markets</marquee>
         <br>
         <div class="news-links">
             <a href=""><i class="fa-solid fa-earth-americas"></i>Top News</a>
             <a href=""><i class="fa-regular fa-handshake"></i>Global Diplomacy</a>
             <a href=""><i class="fa-solid fa-microchip"></i>Tech Inventions</a>
             <a href=""><i class="fa-brands fa-space-awesome"></i>Sports & Space News</a>
-            <a href=""><i class="fa-solid fa-book"></i></i>How to Post</a>
+            <a href=""><i class="fa-solid fa-book"></i>How to Post</a>
         </div>
     </header>
-    <section></section>
-    <footer></footer>
+    <br>
+    <section class="top_news">
+        <div class="top-news-header">
+            <i class="fa-solid fa-fire"></i>&nbsp;
+            <p>Top News</p>
+        </div>
+        <div class="table">
+            <table>
+                <tr>
+                    <th><i class="fa-solid fa-list"></i> Category</th>
+                    <th><i class="fa-solid fa-heading"></i> Heading</th>
+                    <th><i class="fa-solid fa-calendar-days"></i> Date</th>
+                </tr>
+                <tr>
+                    <td>International</td>
+                    <td>Philippine VP says she would have Marcos assassinated if she is killed</td>
+                    <td>23 November 2024</td>
+                </tr>
+                <tr>
+                    <td>International</td>
+                    <td>Free shots and beer buckets in party town at centre of suspected methanol deaths</td>
+                    <td>23 November 2024</td>
+                </tr>
+                <tr>
+                    <td>National</td>
+                    <td>Payra port: Poor navigability jacks up coal import cost</td>
+                    <td>22 November 2024</td>
+                </tr>
+                <tr>
+                    <td>Sport</td>
+                    <td>Bangladesh-West Indies Antigua Test and Australia-India Border-Gavaskar Trophy start today. Ronaldo's Al Nasr are playing tonight.</td>
+                    <td>22 November 2024</td>
+                </tr>
+                <tr>
+                    <td>National</td>
+                    <td>Battery-powered rickshaw drivers, owners demand solution in 7 days</td>
+                    <td>21 November 2024</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <br>
+    <section>
+        <div class="global">
+            <i class="fa-solid fa-earth-americas"></i>&nbsp;<h1>Global Diplomacy</h1>
+        </div>
+        <br>
+        <br>
+        <div class="photocard-container">
+            <img class ="photocard" src="src/picture1.webp" alt="">
+            <p>Tonga’s sleepy capital Nuku’alofa was buzzing last week as leaders from across the Pacific region descended upon it for the annual Pacific Islands Forum (PIF) meeting.</p>
+            <p>Every so often, a police escort would speed through its streets, sirens blaring. On the bonnet of the cars, small flags identified the foreign delegations. China and Taiwan were visible, as well as the Union Jack and the United Nations.</p>
+            <p>All of them only participated as dialogue partners or observers. But they made a lot of noise. Their security detail was bigger than those of most of the 18 PIF members, save perhaps New Zealand and Australia. Tonga’s Royal Palace looked understated in comparison with only a sole guard looking after the King, according to sources.</p>
+            <details>
+                <summary>Read More</summary>
+                <p>Throughout the week, diplomats called the meeting fascinating - but the underlying concern is that the interest by these delegations is not necessarily in line with what PIF leaders or its people want.</p>
+                <p>The PIF is made up of 18 members - mostly Pacific Island nations as well as Australia and New Zealand - but delegations from across the world also attend, keen to play a role in the region, which is assuming greater geopolitical significance.The big players are no longer just Australia and the US. China is a rising power in the Pacific and one that causes ructions.</p>
+                
+            </details>
+            <img class ="photocard" src="src/picture2.webp" alt="">
+            <p>When a notorious Russian assassin and an American newspaper correspondent boarded separate planes in Turkey on Thursday, it marked the culmination of a secretive, dramatic prisoner swap deal between Russia and the West that was years in the making</p>
+            <p>The origins of this deal, which involved two dozen prisoners, can be traced back to 2022. But behind-the-scenes negotiations between Russia, the US and four European countries ramped up earlier this year before intensifying in recent weeks as a final agreement came into view for all sides.</p>
+            <details>
+                <summary>Read More</summary>
+                <p>Those negotiations were at times feverish and testing. They also came as US-Russia tensions soared over the Ukraine war. "It was the culmination of many rounds of complex, painstaking negotiations over many, many months," Jake Sullivan, the US national security adviser who played a critical role in the deal, said shortly after the exchange.</p>
+            </details>
+        </div>
+    </section>
 </body>
 </html>

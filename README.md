@@ -13,9 +13,8 @@ vi.For read more use summary tag and details tag.
 vii.And form makings tag and video tag.
 
 TODO:
-1.Do header section
-2.Add Table.
-3.To image section
+
+
 4.Form section
 5.At last add video and footer
 
