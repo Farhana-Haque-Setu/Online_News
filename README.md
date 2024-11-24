@@ -15,7 +15,7 @@ vii.And form makings tag and video tag.
 TODO:
 
 
-4.Form section
+
 5.At last add video and footer
 
 

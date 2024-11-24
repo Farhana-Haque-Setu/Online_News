@@ -94,7 +94,7 @@
 .table th,
 .table td {
     border: 1px solid #ddd; 
-    padding: 10px; 
+    
     
 }
 
@@ -147,9 +147,9 @@ height:auto; }
     text-decoration: none;
     
 }
+/* Form Design */
 .form-container {
     width: 100%;
-    
     background-color: #fff;
     border: 1px solid #ccc;
     
@@ -162,3 +162,24 @@ form textarea {
     font-size: 16px;
     
 }
+/* General Footer Styling */
+footer {
+    background-color: #004d40; 
+    color: white;
+    text-align: center;
+    
+    font-family: Arial, sans-serif;
+  }
+  /* animate_text */
+  .animate_text{
+    height: 40px;
+    background-color: #e63946;
+    color: white;
+   
+  }
+  
+ 
+  
+ 
+  
+
