@@ -12,11 +12,11 @@ v.A table fro Top news.
 vi.For read more use summary tag and details tag.
 vii.And form makings tag and video tag.
 
-TODO:
 
 
 
-5.At last add video and footer
+
+
 
 
 
